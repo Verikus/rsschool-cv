@@ -1,4 +1,5 @@
-# Veronika Shulgovskaya
+# Veronika Shulgovskaya 
+![Veronika Shulgovskaya](https://user-images.githubusercontent.com/119875485/206197099-1c9638fb-3c83-4d50-9050-169f2a91824c.jpeg)
 ## Contacts
  - Location: Warsaw, Poland
  - Phone: +48 509 759 134
@@ -17,6 +18,7 @@ My name is Veronika. I'm 28 and under my belt is work as a flight attendant and 
  - Jira
  - Manual Testing
 ## Code Example
+```
 function evenOrOdd(number) {  
     if(number % 2 === 0) {  
       return 'Even';  
@@ -24,6 +26,7 @@ function evenOrOdd(number) {
       return 'Odd';  
     }  
   }  
+ ```
   ## Experience
   **Project 1**: CV#1. Markdown & Git 
   https://github.com/Verikus/rsschool-cv  
@@ -34,7 +37,7 @@ function evenOrOdd(number) {
 **A1QA**,  Functional Testing  
 **Together**, Polish language school
 ## Languages
-English: Upper-Intermediate  
-Polish: Pre-Intermediate  
-French: Pre-Intermediate   
-Russian: Native speaker  
+**English**: Upper-Intermediate  
+**Polish**: Pre-Intermediate  
+**French**: Pre-Intermediate   
+**Russian**: Native speaker  
