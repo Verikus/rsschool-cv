@@ -1,1 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    list-style: none;
+}
 
+body {
+    background: lightblue;
+}
+
+.main-content {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.Left_Side {
+    grid-column: span 2;
+    height: 100%;
+    background-color: #00324A;
+}
+
+.Right_Side {
+    grid-column: span 5;
+    background-color: #f7f7f7;
+    height: 100%;
+}
+
+.left-content {
+    padding: 1rem 3rem;
+}
+
+.Profile {
+    width: 100%;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.Profile img {
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid #f7f7f7;
+}
+
+.name {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 1.2rem 0;
+}
+
+.career {
+    font-size: 1.2rem;
+    color: #94d9ea;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 1rem;
+    padding-bottom: 1.2rem;
+}
+.main-title {
+font-size: 1.8rem;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: white;
+padding-top: 3rem;
+border-bottom: 1px solid #f7f7f7;
+}
+.contacts ul {
+    padding-top: 2rem;
+}
+.contacts ul li {
+    padding:  0.5rem 0;
+    display: flex;
+    align-items: center;
+    color:white;
+    font-size: 1.2rem;
+}
+.right-main-content {
+    padding: 2rem 3rem;
+
+}
+.right-title {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #00324A;
+    border-bottom: 1px solid #00324A;
+    padding-bottom: 0.3rem;
+}
+.text-about-me {
+line-height: 1.6rem;
+color: #5a677a;
+font-size: 1.2rem;
+padding-top: 1rem
+}
+.sect {
+    padding-bottom: 2rem;
+}
+right-title::after{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: .2rem;
+    background-color: #ccc;
+    border-radius: 12px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.para{
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.1rem;
+    padding-top: 1rem
+}
+
+.sect{
+    padding-bottom: 2rem;
+}
+.tl-title{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #002333;
+    text-transform: uppercase;
+    padding-top: 1rem
+}
+.tl-title-2{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #2D9CDB
+}
+.code-example {
+  background-color: #eee;
+  display: block;
+  color:#718096;
+  font-size: 1.2rem
+}
+
+.project-item {
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #2D9CDB;
+    padding-bottom: 1.2rem;
+    text-decoration: none 
+}
+.My-project ul li {
+    padding:  0.5rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: #2D9CDB;
+    
+}
+.Languages ul li {
+    padding:  0.5rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: #2D9CDB; 
+}
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 120px;
+    list-style: none;
+  }
+ 
+.nav-link {
+    line-height: 50px;
+    color: #00324A;
+    text-decoration: none;
+    font-size: 1.3rem
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 120px;
+    list-style: none;
+    color:#002333;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color:#002333
+  }
+
+
+/*Media Queries*/
+@media screen and (max-width:823px){
+    .right-title::after{
+        width: 40%;
+    }
+}
+@media screen and (max-width:681px){
+    .right-title::after{
+        width: 30%;
+    }
+}
+@media screen and (max-width:780px){
+    .timeline{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width:780px){
+    .left-section{
+        grid-column: span 3;
+    }
+    .right-section{
+        grid-column: span 4;
+    }
+}
+@media screen and (max-width:1200px){
+    .main-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .profile img{
+        width: 40%;
+    }
+}
+@media screen and (max-width:700px){
+    .profile img{
+        width: 60%;
+    }
+}
+@media screen and (max-width:390px){
+    .name{
+        font-size: 1.5rem;
+    }
+}
